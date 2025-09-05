@@ -36,7 +36,7 @@ python -m src.fuse_features
 Artifacts:
 - `features/fused_features.csv`
 
-## 3. Training (multimodal, leakage‑free)
+## 3. Training (multimodal)
 
 Late fusion and class‑imbalance handling are configurable via environment variables.
 
@@ -81,7 +81,7 @@ Features:
 - Majority voting on multi‑segment clips; confidence display and abstention
 - Logs to `outputs/prediction_log.csv`
 
-## 6. SUS (usability) workbook
+## 6. SUS workbook
 
 A spreadsheet template with formulas is provided:
 - `outputs/sus_calculation.xlsx`
