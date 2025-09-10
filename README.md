@@ -13,8 +13,7 @@ source .venv/bin/activate
 python -m pip install --upgrade pip setuptools wheel
 python -m pip install -r requirements.txt
 
-# Optional: install extras used by tooling
-python -m pip install imbalanced-learn XlsxWriter
+# All dependencies including imbalanced-learn are in requirements.txt
 ```
 
 ## 2. Data prep and feature fusion
@@ -118,4 +117,3 @@ Artifacts for reporting:
 - Always keep oversampling inside the training pipeline (never touch test)
 - Use `GroupKFold` by `video_id` to avoid identity leakage
 - Version fused features when changing env flags (e.g., `features/fused_features.v2.csv`)
-# Casting-assistant-
