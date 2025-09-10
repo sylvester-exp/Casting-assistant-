@@ -1,0 +1,43 @@
+# === Python ===
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# === OS + IDE ===
+.DS_Store
+.vscode/
+.ipynb_checkpoints/
+.python-version
+
+# === Project-specific folders ===
+data/raw/
+data/processed/audio_cleaned/
+data/processed/video_frames/
+outputs/
+output/
+*.csv
+
+# === Untracked doc folders ===
+References/
+Project Documents/
+*.docx
+*.pptx
+*.png
+*.pdf
+*.html
+*.ipynb
+*.txt
+
+# === Temp / backup ===
+*~
+
+# Ignore everything outside the project root
+../../../*
+
+# Ignore archive, temp, and junk files
+*.zip
+*.spv
+*.log
+*.tmp
+*.bak

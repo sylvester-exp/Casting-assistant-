@@ -1,0 +1,18 @@
+{
+    "hero": {
+      "dominant_emotions": ["happy", "surprised", "fearful"]
+    },
+    "villain": {
+      "dominant_emotions": ["angry", "disgust"]
+    },
+    "mentor": {
+      "dominant_emotions": ["happy", "sad"]
+    },
+    "comic_relief": {
+      "dominant_emotions": ["happy", "surprised"]
+    },
+    "tragic_figure": {
+      "dominant_emotions": ["sad", "fearful"]
+    }
+  }
+  
